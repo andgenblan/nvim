@@ -69,3 +69,11 @@ require("config.lazy")
 
 --Set line number color
 vim.api.nvim_set_hl(0, "LineNr", { fg = "#00f2ff" })
+
+vim.api.nvim_set_hl(0, 'WinSeparator',     { fg = '#00f2ff', bg = 'NONE' })
+vim.api.nvim_set_hl(0, 'WinSeparatorNC',   { fg = '#00f2ff', bg = 'NONE' })
+
+vim.api.nvim_set_hl(0, 'StatusLine',     { fg = '#000000', bg = '#00f2ff' })
+vim.api.nvim_set_hl(0, 'StatusLineNC',   { fg = '#00f2ff', bg = 'NONE' })
+
+
