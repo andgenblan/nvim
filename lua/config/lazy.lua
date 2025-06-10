@@ -96,7 +96,9 @@ hooks.register(hooks.type.HIGHLIGHT_SETUP, function()
     -- vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#C678DD" })
     -- vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#56B6C2" })
 
-    vim.api.nvim_set_hl(0, "Selected", {fg = "#03A9F4"})
+    -- vim.api.nvim_set_hl(0, "Selected", {fg = "#03A9F4"})
+    
+    vim.api.nvim_set_hl(0, "Selected", {fg = "#00f2ff"})
 
     vim.api.nvim_set_hl(0, "Default", {fg = "#7D23A2"})
 end)
