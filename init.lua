@@ -39,7 +39,9 @@ vim.keymap.set('n', '<leader>r', 'ciw', {})
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
-vim.keymap.set('i', 'jj', '<Esc>', {noremap = true, silent = true})
+vim.keymap.set('i', 'jk', '<Esc>', {noremap = true, silent = true})
+vim.keymap.set('v', 'jk', '<Esc>', {noremap = true, silent = true})
+vim.opt.timeoutlen = 200
 
 vim.keymap.set('i', '<A-h>', '<Left>',  {noremap = true, silent = true})
 vim.keymap.set('i', '<A-j>', '<Down>',  {noremap = true, silent = true})
